@@ -1,0 +1,177 @@
+exports[`common html test common test 1`] = `
+<div>
+  <div>
+    
+        
+    <div>
+      hello
+    </div>
+    
+        
+  </div>
+</div>
+`;
+
+exports[`common html test should disappear if not true 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`common html test should loop if there is a loop 1`] = `
+<div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+</div>
+`;
+
+exports[`common html test should mounted if true 1`] = `
+<div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+</div>
+`;
+
+exports[`common html test should render a component 1`] = `
+<div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+</div>
+`;
+
+exports[`common html test should render a component contained another component  1`] = `
+<div>
+  <div>
+    
+          
+    <div
+      className="HaveChildren">
+      children: 
+      
+              
+      <div
+        className="Hey" />
+      
+            
+      
+    </div>
+    <div
+      className="HaveChildren">
+      children: 
+      
+              
+      <div
+        className="Hey" />
+      
+            
+      
+    </div>
+    <div
+      className="HaveChildren">
+      children: 
+      
+              
+      <div
+        className="Hey" />
+      
+            
+      
+    </div>
+    <div
+      className="HaveChildren">
+      children: 
+      
+              
+      <div
+        className="Hey" />
+      
+            
+      
+    </div>
+    
+        
+  </div>
+</div>
+`;
+
+exports[`common html test should render a component with a loop  1`] = `
+<div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    <div
+      className="Hey" />
+    <div
+      className="Hey" />
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+</div>
+`;
+
+exports[`common html test should render a component with judage the condition 1`] = `
+<div>
+  <div>
+    
+        
+    <div
+      className="Hey" />
+    
+    
+        
+  </div>
+</div>
+`;

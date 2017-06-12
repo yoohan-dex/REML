@@ -1,0 +1,31 @@
+.template-inner-card {
+  position: relative;
+  background-position-y: 0;
+  background-size: cover;
+  transition: all 3s ease;
+}
+
+@keyframes background {
+  0% {
+    background-position-y: 0;
+  }
+  100% {
+    background-position-y: -100px;
+  }
+}
+
+.template-inner-card:hover {
+  animation: background infinite both alternate 3s;
+}
+
+.template-title {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  & h2, & h4 {
+    color: white;
+    padding: 10px;
+  }
+}
+

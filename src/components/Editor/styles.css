@@ -1,0 +1,14 @@
+.editor-background .CodeMirror-scroll {
+  background: white;
+  /*background: #333;*/
+}
+.editor-background pre {
+  box-shadow: none;
+}
+
+.editor-background .cm-s-default{
+      overflow-y: auto;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}

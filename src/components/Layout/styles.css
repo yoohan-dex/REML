@@ -1,0 +1,48 @@
+.my-main-section {
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  bottom: 50px;
+}
+
+.my-main-section .sec {
+  height: 100%;
+}
+.my-main-section .sec div.content{
+    height: 100%;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.my-main-section .sec div.left-panel,
+.my-main-section .sec div.mainBoxCenter,
+.my-main-section .sec div.right-panel {
+    display: inline-block;
+    height: 100%;
+}
+.my-main-section .sec div.mainBoxCenter {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 0 1px;
+}
+.my-main-section .sec div.left-panel {
+    width: 250px;
+    position: absolute;
+    margin-left: -250px;
+    background: #FFFFFF;
+}
+.my-main-section .sec div.left-pane > .pt-elevation-0 {
+  box-shadow: none;
+}
+.my-main-section .sec div.right-panel {
+    position: absolute;
+    padding: 10px 5px;
+    width: 250px;
+    margin-right: -250px;
+    background: #FFFFFF;
+}
+
+.navbar-center-items {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}

@@ -1,0 +1,12 @@
+.pt-tabs {
+  overflow: auto;
+  height: 100%;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.pt-tab-panel {
+  margin-top: 0;
+  overflow: auto;
+  
+}

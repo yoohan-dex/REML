@@ -1,0 +1,6 @@
+.drop-target-container > .top {
+  bottom: calc(100% - 10px);
+}
+.mosaic-window-body {
+  overflow: auto;
+}
